@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ondrej Musil">
+    <meta name="keywords"
+        content="photography, photographer, portfolio, images, gallery, landscape photography, cityscape, streetphotography, photos, creativity">
+    <meta name="description" content="Get in touch with me and let me tell your story. It is that simple!">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/html5reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Contact me</title>
+</head>
+
+<body>
+    <header class="bg-light">
+        <div class="skip"><a href="#main" class="btn-dark">Skip to content</a></div>
+        <nav class="navbar">
+            <a href="./index.html" class="logo bg-light">OM.</a>
+            <input type="checkbox" id="toggler">
+            <label for="toggler" aria-label="navigation menu" aria-hidden="true"><i class="ri-menu-line"></i></label>
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li class="text-danger active font-weight-bold"><a href="./contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <h1 class="page-desc text-secondary m-3">Contact me</h1>
+        <div class="d-flex justify-content-center">
+            <form class="w-50 shadow-sm p-5" action="https://formspree.io/f/xeqwvojl" method="POST">
+                <fieldset>
+                    <legend class="h2 mb-5 text-center bg-dark rounded p-4 text-white">Get in touch</legend>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="fname" class="mb-2">First Name<span class="text-danger">*</span></label>
+                            <input type="text" name="fname" class="form-control bg-light" id="fname" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lname" class="mb-2">Last Name<span class="text-danger">*</span></label>
+                            <input type="text" name="lname" class="form-control bg-light" id="lname" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="mb-2">Email<span class="text-danger">*</span></label>
+                        <input type="email" name="email" class="form-control bg-light" id="email" placeholder="user@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="mb-2">Message<span class="text-danger">*</span></label>
+                        <textarea class="form-control bg-light" name="message" id="message" rows="3" placeholder="Leave a message..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark d-block mx-auto mt-4 w-50 p-3" id="submit">Send</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer class="bg-light d-flex justify-content-center align-items-center mt-5 force-bottom">
+        <div class="text-center mt-2 p-3 text-dark">
+            <a href="https://www.instagram.com/lapacsrdci/" target="_blank" aria-label="Go to instagram.com"><i
+                    class="fa fa-instagram fa-2x m-1" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/ondra.mus/" target="_blank" aria-label="Go to facebook.com"><i
+                    class="fa fa-facebook-square fa-2x m-1" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/ondrej-musil-592b07268/?locale=en_US" target="_blank"
+                aria-label="Go to linkedin.com"><i class="fa fa-linkedin-square fa-2x m-1" aria-hidden="true"></i></a>
+            <hr class="hr" />
+            &copy; Ondrej Musil, 2023
+        </div>
+    </footer>
+    <script src="./assets/js/form.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input@1.3.4/dist/bs-custom-file-input.min.js"></script>
+</body>
+
+</html>
